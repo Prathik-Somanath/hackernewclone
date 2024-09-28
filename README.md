@@ -1,5 +1,15 @@
 # Hacker News Clone
 
+<p align="center">
+  <img src="./public/Screenshot from 2024-09-28 02-54-15.png" title="hover text">
+</p>
+
+
+[Demo Video](https://drive.google.com/file/d/1jZd4h85VwI7T2_JA22J7lsvVhVPnGguE/view?usp=drive_link) 
+
+[1hr Coding Video](https://drive.google.com/file/d/1w31wuaSL4L0xym17rqvvZ7EnR4pHSsqw/view?usp=drive_link)
+
+
 ## Overview
 
 This project is a clone of Hacker News built using **React**, **TypeScript**, and **Tailwind CSS**. The aim was to replicate the core functionalities of Hacker News while learning to make quick decisions in the development process.
