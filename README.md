@@ -38,4 +38,6 @@ To run the application, follow these steps:
 - **URL Abbreviation Logic**: The abbreviation of URL was challenging as I had to brainstorm before implementing the function. There are few exceptions where the website shows the first directory name of github.com website and others it does not show. I also observed that it renders upto 3rd level domain. Since I do not have the mappings of which website to show the first directory I just implemented it for github.com and also removed www. from the URL string. 
 
 - **Type Checking**: Although I usually use Zod for type validation while fetching the data in TypeScript, I opted to forego this due to time constraints.
+  
+- **CSS**: I could have reused css styling and made it more modular.
 
