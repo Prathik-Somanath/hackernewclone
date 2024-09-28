@@ -18,7 +18,7 @@ This project is a clone of Hacker News built using **React**, **TypeScript**, an
 
 - **Header with Logo**: A clean header that includes the logo for brand identity.
 - **News Feed**: Displaying all items in a grid layout, matching the UI and styling of the original Hacker News.
-- **Responsive Design**: Utilized Tailwind CSS for its flexibility in inline styling, ensuring a responsive and modern look.
+- **Responsive Design**: Utilized Tailwind CSS for its flexibility in inline css styling.
 
 ## Getting Started
 
@@ -33,9 +33,9 @@ To run the application, follow these steps:
 
 ### Limitations of the Implementation
 
-- **Interactivity**: The application lacks full interactive capabilities, such as upvoting articles and navigating through top nav buttons, which limits user engagement.
+- **Interactivity**: The application lacks full interactive capabilities, such as upvoting articles and navigating through top nav buttons.
 
-- **URL Abbreviation Logic**: The implementation is not comprehensive; it only addresses `github.com` URLs effectively. Other URLs may not be processed correctly or may display inconsistently.
+- **URL Abbreviation Logic**: The abbreviation of URL was challenging as I had to brainstorm before implementing the function. There are few exceptions where the website shows the first directory name of github.com website and others it does not show. I also observed that it renders upto 3rd level domain. Since I do not have the mappings of which website to show the first directory I just implemented it for github.com and also removed www. from the URL string. 
 
-- **Type Checking**: The absence of thorough type checking could lead to runtime errors or unexpected behavior when fetching and displaying data.
+- **Type Checking**: Although I usually use Zod for type validation while fetching the data in TypeScript, I opted to forego this due to time constraints.
 
