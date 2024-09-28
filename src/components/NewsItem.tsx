@@ -29,7 +29,7 @@ export default function NewsItem({
         </div>
         <div>
             <div>
-                <a href='' className='title'>
+                <a href={url || `item?${id}`} className='title'>
                     {title}
                 </a>
                 <span className='comtext links ml-2'>
