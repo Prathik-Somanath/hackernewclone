@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p body div a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+  }
+}
+
+@layer components {
+  .header {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: black;
+  }
+  .title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+  }
+  .comtext {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 8pt;
+    color: #828282;
+  }
+  .subtext {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 7pt;
+    color: #828282;
+  }
+  .links {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .links:hover {
+    text-decoration: underline;
+  }
+}
